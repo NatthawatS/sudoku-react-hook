@@ -26,6 +26,7 @@ export const validate = (board) => {
 };
 
 function App() {
+  
   return (
     <div className="App">
       <Board validate={validate}></Board>
